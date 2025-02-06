@@ -1,0 +1,134 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-family: "Manrope";
+    font-size: 20px;
+    left: 0;
+}
+.sign {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    font-family: "Manrope";
+}
+.logo {
+    width: 20%;
+    background: linear-gradient(45deg, #8729ff, #c297fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Manrope_fat";
+    font-size: 25px;
+    margin-left: 10%;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(/Fonts/Manrope/static/Manrope-Medium.ttf);
+}
+header {
+    background-color: rgb(241,239,252);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+@font-face {
+    font-family: "Manrope_fat";
+    src: url(/Fonts/Manrope/static/Manrope-Bold.ttf);
+}
+.sign div {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.sign div p a {
+    text-decoration: none;
+    color: black
+}
+.get {
+    padding-top: 180px;
+    font-family: "Manrope_extrafat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253,252,255);
+}
+.boost h1 span {
+    color: rgb(140,51,254);
+    background-color: rgb(241,240,252);
+    border-radius: 10px;
+}
+.boost h1 {
+    font-size: 60px;
+    text-align: center;
+    width: 60%;
+    color: black;
+}
+@font-face {
+    font-family: "Manrope_extrafat";
+    src: url(/Fonts/Manrope/static/Manrope-ExtraBold.ttf);
+}   
+.boost div {
+    display: flex;
+    justify-content: center;
+}
+.ready p {
+    width: 58%;
+    color: rgb(138, 138, 138);
+    text-align: center;
+}
+.ready div {
+    display: flex;
+    justify-content: center;
+}
+.started {
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(140,51,255);
+    border: none;
+    font-family: "Manrope";
+    width: 215px;
+    height: 55px;
+    font-size: x-large;
+}
+.buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.demo {
+    color: rgb(140,51,255);
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid rgb(140,51,255);
+    font-family: "Manrope";
+    width: 200px;
+    height: 55px;
+    font-size: x-large;
+}
+.sign button {
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(140,51,255);
+    border: none;
+    font-family: "Manrope";
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+}
+.sign div div {
+    align-items: center;
+}
