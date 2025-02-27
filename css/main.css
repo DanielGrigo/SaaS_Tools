@@ -47,6 +47,7 @@ header {
     width: 50%;
     font-size: 20px;
     text-decoration: none;
+    margin-right: 10%;
 }
 li a {
     text-decoration: none;
@@ -83,10 +84,11 @@ li a {
     display: flex;
     justify-content: center;
 }
-.ready p {
+.ready h3 {
     width: 58%;
     color: rgb(138, 138, 138);
     text-align: center;
+    font-size: 20px;
 }
 .ready div {
     display: flex;
@@ -101,6 +103,7 @@ li a {
     width: 215px;
     height: 55px;
     font-size: x-large;
+    cursor: pointer;
 }
 .buttons {
     width: 30%;
@@ -118,6 +121,7 @@ li a {
     width: 200px;
     height: 55px;
     font-size: x-large;
+    cursor: pointer;
 }
 .sign button {
     color: white;
@@ -128,7 +132,364 @@ li a {
     width: 200px;
     height: 45px;
     font-size: 20px;
+    cursor: pointer;
 }
 .sign div div {
     align-items: center;
+}
+.pack {
+    font-family: "Manrope_Extrafat";
+    margin-top: 75px;
+}
+.services div {
+    display: flex;
+    justify-content: center;
+}
+.services h1 {
+    font-size: 47px;
+    text-align: center;
+    width: 60%;
+    color: black;
+}
+.services h1 span {
+    color: rgb(140,51,254);
+}
+.pr h1 {
+    font-family: "Manrope_Extrafat"
+}
+.pr p {
+    font-family: "Manrope";
+}
+.pr h2 {
+    font-family: "Manrope_Fat";
+    margin-top: 30px;
+}
+.pr h2 a {
+    text-decoration: none;
+    color: black;
+}
+.blocks {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pr {
+    width: 30%;
+    background-color: rgb(241,240,252);
+    border-radius: 10px;
+}
+.pr div {
+    width: 90%;
+    margin-left: 15px;    
+}
+.img p {
+    font-family: "Manrope";
+}
+.img h1 {
+    font-family: "Manrope_Extrafat";
+    font-size: 47px;
+}
+.img span {
+    color: rgb(140,51,254);
+}
+.img div div div {
+    background-color: rgb(175,128,255);
+    width: 175px;
+    height: 25px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img div div div p {
+    color: white;
+}
+.img div {
+    display: flex;
+}
+.img div div {
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    margin-top: 175px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.photo {
+    width: 550px;
+    height: 431,25px;
+    border-radius: 10px;
+}
+.revenue {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    margin-top: 30px;
+    width: 50%;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+.p {
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+.scnd {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+.price {
+    margin-top: 125px;
+}
+.ready1 h3 {
+    width: 55%;
+    color: rgb(165, 165, 165);
+    text-align: center;
+    font-size: 19px;
+    font-family: "Manrope";
+}
+.ready1 div {
+    display: flex;
+    justify-content: center;
+}
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 34px;
+    background-color: rgb(140,51,255);
+    border-radius: 17px;
+}
+.switch_input {
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.switch_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .2s;
+}
+.switch_slider::before {
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    height: 26px;
+    width: 26px;
+    border-radius: 100px;
+    transition: .2s;
+}
+.switch_input:checked + .switch_slider::before {
+    transform: translateX(26px);
+}
+.off {
+    background-color: rgb(175,128,255);
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.type {
+    font-family: "Manrope_Fat";
+    display: flex;
+    align-items: center;
+    width: 22%;
+    justify-content: space-between;
+}
+.off p {
+    font-family: "Manrope";
+    color: white;
+}
+.tp {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.plans {
+    width: 30%;
+    background-color: rgb(241,240,252);
+    border-radius: 10px;
+}
+.plans h1 {
+    font-family: "Manrope_Extrafat";
+}
+.plans p {
+    font-family: "Manrope";
+    color: rgb(98, 98, 98);
+}
+.blck {
+    margin-left: 15px;
+}
+.plans div div {
+    display: flex;
+    align-items: baseline;
+    top: 0;
+}
+.plans div div p {
+    margin-left: 5px;
+}
+.free {
+    margin-top: 39px;
+}
+.line div {
+    background-color: rgb(220, 219, 239);
+    height: 3px;
+    width: 87%;
+    border-radius: 100px;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plans ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    padding-left: 10px;
+}
+.plans li {
+    margin: 15px;
+    color: rgb(98, 98, 98);
+}
+.thrd {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%;
+}
+.upgrade {
+    color: white;
+    background-color: rgb(175,128,255);
+    font-family: "Manrope";
+    font-size: x-large;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 50px;
+    width: 330px;
+    transition: .3s;
+    margin-bottom: 40px;
+}
+.upgrade:hover {
+    background-color: rgb(140,51,255);
+    transition: .3s;
+}
+.services1 div {
+    display: flex;
+    justify-content: center;
+}
+.services1 h1 {
+    font-size: 47px;
+    text-align: center;
+    width: 50%;
+    color: black;
+}
+.services1 h1 span {
+    color: rgb(140,51,254);
+}
+.services2 div {
+    display: flex;
+    justify-content: center;
+}
+.services2 h1 {
+    font-size: 47px;
+    text-align: center;
+    width: 45%;
+    color: black;
+}
+.services2 h1 span {
+    color: rgb(140,51,254);
+}
+.fa {
+    text-decoration: none;
+    color: white;
+}
+.social li {
+    background-color: rgb(140,51,255);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.faq {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 45px;
+    height: auto;
+}
+details {
+    background-color: rgb(175,128,255);
+    width: 55%;
+    border-radius: 10px;
+    transition: .3s;
+}
+summary {
+    padding: 2rem 1.5rem;
+    font-family: "Manrope";
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+summary::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid white;
+    border-inline: 7px solid transparent;
+    transition: .3s;
+}
+details[open]
+summary::after {
+    transform: rotate(180deg);
+}
+article p {
+    font-size: 1.2rem;
+    font-family: "manrope";
+    color: white;
+    padding-left: 2rem;
+}
+details[open] {
+    background-color: #8729ff;
+    transition: .3s;
+}
+.pck {
+    margin-top: 20vh;
+}
+.item h1 {
+    color: rgb(175,128,255);
+    font-size: 275px;
+    font-weight: 800;
+    height: 20px;
+}
+.item img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
 }
